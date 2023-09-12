@@ -44,3 +44,6 @@ for (const [key, value] of gameEvents) {
   const half = key <= 45 ? "FIRST" : "SECOND";
   console.log(`[${half} HALF] ${key} :${value}`);
 }
+let a = "abhishek jnd ds sfg";
+let x = a.split(" ");
+console.log(x.entries());
