@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+}
+#itemList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* position: relative; */
+}
+.header input {
+  height: 29px;
+}
+.header p {
+  position: relative;
+  left: -10px;
+}
+#itemList li {
+  display: flex;
+  align-items: center;
+  margin: 12px;
+  position: relative;
+  background-color: rgb(36, 36, 36);
+  height: 35px;
+  border-top: 2px solid rgb(46, 46, 46);
+  border-bottom: 2px solid rgb(46, 46, 46);
+  color: white;
+  width: 132vh;
+}
+
+#itemList li .delete {
+  background-color: rgb(109, 109, 109);
+  position: absolute;
+  right: 50px;
+  top: 7px;
+}
+#itemList li span {
+  margin-left: 9px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 35px;
+  color: white;
+}
+
+.header button {
+  background-color: rgb(115, 115, 115);
+  border-radius: 4px;
+  color: white;
+}
+
+.completed {
+  background-color: red !important;
+  color: white;
+}
