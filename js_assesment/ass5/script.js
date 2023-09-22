@@ -76,7 +76,9 @@ let delet = document.getElementsByClassName("delete");
 itemarr.addEventListener("click", function (e) {
   if (e.target.tagName === "LI") {
     //   console.log(e.target.children[1]);
-    e.target.children[1].remove();
+    if (e.target.children[1]) {
+      e.target.children[1].remove();
+    }
     e.target.classList.add("completed");
     obj = remaining.textContent--;
 
