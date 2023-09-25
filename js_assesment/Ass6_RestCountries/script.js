@@ -5,6 +5,7 @@ let exchange=document.getElementById('exchange');
 let info=document.getElementById('info');
 let amount=document.getElementById('amount');
 
+
 function fetchCountry(){
     fetch("https://restcountries.com/v3.1/all?fields=name,currencies").then(res=> res.json())
     .then(data => {
